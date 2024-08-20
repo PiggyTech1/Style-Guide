@@ -1,0 +1,116 @@
+p {
+  display: block;
+}
+
+header {
+  font-family: 'Playfair Display';
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'sedan';
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  border: 2px solid #909090;
+  padding: 10px;
+  margin: 10px auto;
+  min-width: 200px;
+  width: 27%;
+  overflow: auto;
+}
+
+.color-block {
+  padding: 10px;
+  margin: 5px auto;
+  min-height: 80px;
+  width: 90%;
+  border: 2px solid #909090;
+  font-family: 'work sans';
+  text-align: center;
+}
+
+.oak {
+  background-color: #392E26;
+}
+
+.mocha {
+  background-color: #6B5B4D;
+}
+
+.wheat {
+  background-color: #B6A593;
+}
+
+.bisque {
+  background-color: #E2D9CD;
+}
+
+.sugar {
+  background-color: #FCF8F0;
+}
+
+.pistachio {
+  background-color: #B5BDAC;
+}
+
+.light {
+  color: #000;
+}
+
+.color-dark {
+  color: #FAF9F6;
+}
+
+.font-title {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.playfair {
+  font-family: 'Playfair display';
+}
+
+.sedan {
+  font-family: 'Sedan';
+}
+
+.work-sans {
+  font-family: 'Work-Sans';
+}
+
+.h1 {
+  font-weight: bold;
+  font-family: 'playfair display';
+  font-size: 20px;
+}
+
+.h2 {
+  font-weight: 500;
+  font-family: 'sedan';
+  font-size: 18px;
+}
+
+.p {
+  font-weight: 400;
+  font-family: 'work sans';
+  font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+  font-weight: 400;
+}
